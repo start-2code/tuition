@@ -1,3 +1,118 @@
+The Line Method (also known as the Ladder Method or Division Method) is another way to find the LCM and HCF of two or more numbers. It involves repeatedly dividing the numbers by their common prime factors. This method is visually intuitive and systematic, especially for larger numbers.
+Steps for Finding LCM using the Line Method:
+
+    Write the numbers side by side.
+    Divide by the smallest prime number that divides at least one of the numbers. Write the quotients below the original numbers, and if a number is not divisible by the prime, leave it as it is.
+    Continue dividing the resulting numbers by prime numbers until all numbers become 1.
+    Multiply all the prime divisors to get the LCM.
+
+Steps for Finding HCF using the Line Method:
+
+    Follow the same steps as above but only multiply the prime divisors that divide all numbers (i.e., those common to all numbers).
+    The product of the common prime divisors is the HCF.
+
+Example 1: Find the LCM and HCF of 56 and 98
+
+    Write the numbers side by side:
+    5698
+    5698
+
+    Divide by the smallest prime number (2):
+    2∣5698
+    2∣5698
+    ∣2849
+    ∣2849
+        56 ÷ 2 = 28, and 98 ÷ 2 = 49.
+
+    Divide again by the next smallest prime number that divides at least one number (2):
+    2∣2849
+    2∣2849
+    ∣1449
+    ∣1449
+        28 ÷ 2 = 14, and 49 stays as it is (since it’s not divisible by 2).
+
+    Divide again by 2:
+    2∣1449
+    2∣1449
+    ∣749
+    ∣749
+        14 ÷ 2 = 7, and 49 stays as it is.
+
+    Divide by 7 (the smallest prime divisor for both numbers):
+    7∣749
+    7∣749
+    ∣17
+    ∣17
+
+    Divide by 7 again:
+    7∣17
+    7∣17
+    ∣11
+    ∣11
+        Now both numbers are 1, so the process stops here.
+
+For LCM:
+
+    Multiply all the divisors: 2×2×2×7×7=3922×2×2×7×7=392.
+    So, LCM(56, 98) = 392.
+
+For HCF:
+
+    Multiply only the divisors common to both numbers, which is 77.
+    So, HCF(56, 98) = 7.
+
+Example 2: Find the LCM and HCF of 12, 15, and 18
+
+    Write the numbers side by side:
+    121518
+    121518
+
+    Divide by 2:
+    2∣121518
+    2∣121518
+    ∣6159
+    ∣6159
+        12 ÷ 2 = 6, 15 stays as it is, 18 ÷ 2 = 9.
+
+    Divide by 2 again:
+    2∣6159
+    2∣6159
+    ∣3159
+    ∣3159
+        6 ÷ 2 = 3, and the others stay the same.
+
+    Divide by 3:
+    3∣3159
+    3∣3159
+    ∣153
+    ∣153
+        3 ÷ 3 = 1, 15 ÷ 3 = 5, and 9 ÷ 3 = 3.
+
+    Divide by 3 again:
+    3∣153
+    3∣153
+    ∣151
+    ∣151
+
+    Divide by 5:
+    5∣151
+    5∣151
+    ∣111
+    ∣111
+
+For LCM:
+
+    Multiply all the divisors: 2×2×3×3×5=1802×2×3×3×5=180.
+    So, LCM(12, 15, 18) = 180.
+
+For HCF:
+
+    Only common divisor is 33.
+    So, HCF(12, 15, 18) = 3.
+
+The Line Method is a useful and visual way to find both the LCM and HCF, especially when dealing with multiple numbers and prime factorizations.
+
+
 The Least Common Multiple (LCM) has several practical uses across different fields. Here are some common applications:
 
 ### 1. **Fractions**
